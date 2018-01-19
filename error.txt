@@ -1,0 +1,43 @@
+Arduino: 1.8.5 (Windows 7), Board: "NodeMCU 1.0 (ESP-12E Module), 80 MHz, 4M (1M SPIFFS), v2 Prebuilt (MSS=536), Disabled, None, 115200"
+
+WARNING: library LiquidCrystal_I2C claims to run on (avr) architecture(s) and may be incompatible with your current board which runs on (esp8266) architecture(s).
+In file included from C:\Users\Sam\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson/Deserialization/../JsonVariantBase.hpp:7:0,
+
+                 from C:\Users\Sam\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson/Deserialization/../JsonVariant.hpp:13,
+
+                 from C:\Users\Sam\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson/Deserialization/../JsonBuffer.hpp:12,
+
+                 from C:\Users\Sam\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson/Deserialization/JsonParser.hpp:7,
+
+                 from C:\Users\Sam\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson/JsonBufferBase.hpp:7,
+
+                 from C:\Users\Sam\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson/DynamicJsonBuffer.hpp:7,
+
+                 from C:\Users\Sam\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson.hpp:7,
+
+                 from C:\Users\Sam\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson.h:9,
+
+                 from C:\Users\Sam\Downloads\FYP\LCD_test\LCD_test.ino:7:
+
+C:\Users\Sam\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson/Deserialization/../JsonVariantCasts.hpp: In instantiation of 'ArduinoJson::JsonVariantCasts<TImpl>::operator T() const [with T = char*; TImpl = ArduinoJson::JsonObjectSubscript<const char*>]':
+
+C:\Users\Sam\Downloads\FYP\LCD_test\LCD_test.ino:104:13:   required from here
+
+C:\Users\Sam\Documents\Arduino\libraries\ArduinoJson\src/ArduinoJson/Deserialization/../JsonVariantCasts.hpp:49:35: error: invalid conversion from 'ArduinoJson::Internals::JsonVariantAs<char*>::type {aka const char*}' to 'char*' [-fpermissive]
+
+     return impl()->template as<T>();
+
+                                   ^
+
+Multiple libraries were found for "WiFiClient.h"
+ Used: C:\Users\Sam\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.4.0\libraries\ESP8266WiFi
+ Not used: C:\Program Files (x86)\Arduino\libraries\WiFi
+ Not used: C:\Program Files (x86)\Arduino\libraries\WiFi
+ Not used: C:\Program Files (x86)\Arduino\libraries\WiFi
+ Not used: C:\Program Files (x86)\Arduino\libraries\WiFi
+exit status 1
+Error compiling for board NodeMCU 1.0 (ESP-12E Module).
+
+This report would have more information with
+"Show verbose output during compilation"
+option enabled in File -> Preferences.
